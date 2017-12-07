@@ -12,7 +12,7 @@ namespace IO
     {
         static void Main(string[] args)
         {
-            /* Console.WriteLine("Zadanie 4:");
+             Console.WriteLine("Zadanie 4:");
              Zadanie4.execute();
              Console.ReadLine();
 
@@ -31,10 +31,6 @@ namespace IO
             Console.WriteLine("\n\nZadanie 8:");
             Zadanie8.execute();
             Console.ReadLine();
-
-            Console.WriteLine("\n\nZadanie 13:");
-            Zadanie13.execute();
-            Console.ReadLine();*/
 
         }
 
