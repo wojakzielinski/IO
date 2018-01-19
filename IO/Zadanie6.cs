@@ -13,7 +13,6 @@ namespace IO
             FileStream fs = new FileStream("C:\\Users\\Szymon\\source\\repos\\plik.txt", FileMode.Open);
             byte[] message = new byte[2048];
             fs.BeginRead(message, 0, message.Length, myAsyncCallback, new object[] { fs, message });
-            Console.ReadKey();
         }
 
         static void myAsyncCallback(IAsyncResult state)

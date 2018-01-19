@@ -18,6 +18,7 @@ public class Zadanie4
         ThreadPool.QueueUserWorkItem(Klient);
         ThreadPool.QueueUserWorkItem(Klient);
     }
+
     static void Serwer(Object stateInfo)
     {
         TcpListener server = new TcpListener(IPAddress.Any, 2048);
@@ -28,6 +29,7 @@ public class Zadanie4
             ThreadPool.QueueUserWorkItem(KlientSerwer, client);
         }
     }
+
     static void Klient(Object stateInfo)
     {
         TcpClient client = new TcpClient();
@@ -43,6 +45,7 @@ public class Zadanie4
         }
 
     }
+
     static void KlientSerwer(Object Ob)
     {
         TcpClient client = (TcpClient)Ob;

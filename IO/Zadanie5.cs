@@ -29,9 +29,7 @@ namespace IO
                 start += sliceSize;
                 end += sliceSize;
             }
-            Thread.Sleep(1000);
             Console.WriteLine("\nWynik: " + sum);
-            Console.ReadKey();
         }
 
         static void Sumator(Object sliceOfTab)

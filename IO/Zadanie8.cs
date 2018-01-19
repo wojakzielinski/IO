@@ -36,7 +36,6 @@ namespace IO
 
             endTime = DateTime.Now;
             Console.WriteLine("Asynchronicznie czas :  " + (endTime - startTime).TotalMilliseconds);
-            Console.ReadKey();
         }
         static int factorialIt(object n)
         {
